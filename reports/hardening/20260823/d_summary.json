@@ -1,0 +1,72 @@
+{
+  "schema_version": "n1_hardening_d_summary.v1",
+  "baseline": {
+    "cagr": 0.21819999998526063,
+    "max_drawdown": 0.07707808566551255,
+    "return_2024": 0.2747886912126327,
+    "return_2025": 0.1613911938486754,
+    "trade_count": 245,
+    "exposure": 0.5444384696094042,
+    "source": "hardening A / n1_repro exact"
+  },
+  "d1": {
+    "cagr": 0.16209072164506577,
+    "cagr_pct": 16.21,
+    "max_drawdown": 0.08239541790878069,
+    "max_drawdown_pct": 8.24,
+    "return_2024": 0.2009576322638098,
+    "return_2024_pct": 20.1,
+    "return_2025": 0.12247251042439777,
+    "return_2025_pct": 12.25,
+    "trade_count": 254,
+    "exposure": 0.5429874006046513,
+    "total_return": 0.3480419284004994,
+    "average_holding_days": 15.01968503937008
+  },
+  "d2": {
+    "cagr": 0.11456121293992627,
+    "cagr_pct": 11.46,
+    "max_drawdown": 0.0787363115223565,
+    "max_drawdown_pct": 7.87,
+    "return_2024": 0.16067063031484352,
+    "return_2024_pct": 16.07,
+    "return_2025": 0.068902504459734,
+    "return_2025_pct": 6.89,
+    "trade_count": 207,
+    "exposure": 0.42573086931934623,
+    "total_return": 0.24064374359639773,
+    "average_holding_days": 15.082125603864734
+  },
+  "d3": {
+    "cagr": 0.18497165310724095,
+    "cagr_pct": 18.5,
+    "max_drawdown": 0.06665565636369919,
+    "max_drawdown_pct": 6.67,
+    "return_2024": 0.22456925496883295,
+    "return_2024_pct": 22.46,
+    "return_2025": 0.14434004353982366,
+    "return_2025_pct": 14.43,
+    "trade_count": 247,
+    "exposure": 0.42466028750798246,
+    "total_return": 0.4013236345485627,
+    "average_holding_days": 15.497975708502024
+  },
+  "d3_haircut": {
+    "rule": "entry qty // 2 if symbol ADV20 < monthly stage_50 median",
+    "entries_haircut": 115,
+    "qty_before": 12877,
+    "qty_after": 6411
+  },
+  "pins": {
+    "monthly": "cb11cbcf067857e8d2fedacb6ce9ed7cb8df4a6eee00f84a3d8d5b69702e5afd",
+    "reference": "f102cebf7f3f3c902ea970a0cbc7648db8ca76334c4848c6311f73131d71fd1a",
+    "override": "0ef946e11bfee87332de091975bc33abf2436b794b7c6c61b2b971e5fb7bfcee"
+  },
+  "n1_paper_modified": false,
+  "wrote_202609_json": false,
+  "runtime_seconds_total": 4869.351863065007,
+  "finished": {
+    "utc": "2026-08-22T21:54:32.432225+00:00",
+    "asia_shanghai": "2026-08-23T05:54:32.432225+08:00"
+  }
+}
