@@ -14,9 +14,15 @@ E2：`70cc50ad965234b99a5a136d4e4f283eedd4281f`
 | [SPEC.md](./SPEC.md) | 公式和执行钉死 |
 | [config/sector_by_symbol.csv](./config/sector_by_symbol.csv) | 隔离复现用的 105 只行业表 |
 | [reports/isolated-2024-2025.md](./reports/isolated-2024-2025.md) | 2024–2025 对照 |
-| [docs/n1_hardening_checklist.md](./docs/n1_hardening_checklist.md) | **N1 加固清单**（不改逻辑，只做验证与运营加固） |
+| [docs/n1_hardening_checklist.md](./docs/n1_hardening_checklist.md) | **N1 加固清单**（不改逻辑，只做验证与运营加固；A–G 已勾） |
+| [docs/n1_onepager.md](./docs/n1_onepager.md) | 一页中文说明：做什么、不做什么、进出场、风控 |
 | [docs/n1_baseline_freeze_20260823.md](./docs/n1_baseline_freeze_20260823.md) | 硬化 A：四数基准 + 不可改哈希 |
 | [docs/n1_redlines.md](./docs/n1_redlines.md) | 硬化 A3：选股 / 风险 / 止损 / regime 红线 |
+| [docs/n1_hard_env.md](./docs/n1_hard_env.md) | 硬化 C：本窗最差回撤与数据边界 |
+| [docs/n1_capacity.md](./docs/n1_capacity.md) | 硬化 E：当前规模安全、粗容量上限 |
+| [docs/n1_monitor_circuit.md](./docs/n1_monitor_circuit.md) | 硬化 F：日报、告警、熔断 |
+| [docs/n1_failed_experiments.md](./docs/n1_failed_experiments.md) | 硬化 G3：F1/G/N2–N5 不要再踩的坑 |
+| [docs/n1_version_status.md](./docs/n1_version_status.md) | 硬化 G4：谁在跑、谁只是归档 |
 
 ## 参数
 

@@ -1,0 +1,60 @@
+{
+  "schema_version": "n1_hardening_ceg_summary.v1",
+  "date": "2026-08-24",
+  "n1_paper_modified": false,
+  "wrote_202609_json": false,
+  "post_hoc_tuning": false,
+  "trading_logic_changed": false,
+  "c": {
+    "c1": {
+      "status": "documented_no_rerun",
+      "reason": "no_2022_2023_isolation_tree",
+      "stage_250_file_count": 24,
+      "first_month": "2024-01",
+      "last_month": "2025-12"
+    },
+    "c2": {
+      "status": "pass_in_window_only",
+      "max_drawdown": 0.07707808566551255,
+      "peak_date": "2024-07-10",
+      "trough_date": "2024-08-07",
+      "recovered_in_2024": true,
+      "is_bear_market_test": false,
+      "bull_active_days_from_n5_n1_engine": 447,
+      "regime_day_count": 501
+    },
+    "c3": {
+      "status": "pass",
+      "window": ["2024-01-03", "2025-12-31"],
+      "claim_all_cycle_survivable": false
+    }
+  },
+  "e": {
+    "e1": {
+      "status": "pass",
+      "paper_nav": 77714.65,
+      "paper_asof": "2026-08-21",
+      "impact_ok_at_current_size": true
+    },
+    "e2": {
+      "status": "pass_range",
+      "comfortable_nav_usd": 1000000,
+      "coarse_ceiling_usd": [3000000, 7000000],
+      "method": "15pct_name_cap_vs_100m_adv_floor_at_0.5_to_1.0pct_of_adv"
+    },
+    "e3": {
+      "status": "pass_observed_only",
+      "paper_max_name_weight": 0.1410,
+      "paper_max_name": "JPM.US",
+      "paper_max_sector_weight": 0.2915,
+      "paper_max_sector": "信息技术",
+      "isolation_daily_weights_in_this_repo": false
+    }
+  },
+  "g": {
+    "g1": "docs/n1_onepager.md",
+    "g2": "docs/n1_limitations.md",
+    "g3": "docs/n1_failed_experiments.md",
+    "g4": "docs/n1_version_status.md"
+  }
+}
