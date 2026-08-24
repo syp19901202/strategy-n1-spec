@@ -1,4 +1,4 @@
-# Strategy N1
+# 策略 N1
 
 美股多头、日频信号、月度换池。长桥 Demo **纸交易**。不是实盘授权。
 
@@ -16,7 +16,7 @@ E2：`70cc50ad965234b99a5a136d4e4f283eedd4281f`
 | [reports/isolated-2024-2025.md](./reports/isolated-2024-2025.md) | 2024–2025 对照 |
 | [docs/n1_hardening_checklist.md](./docs/n1_hardening_checklist.md) | **N1 加固清单**（不改逻辑，只做验证与运营加固） |
 | [docs/n1_baseline_freeze_20260823.md](./docs/n1_baseline_freeze_20260823.md) | 硬化 A：四数基准 + 不可改哈希 |
-| [docs/n1_redlines.md](./docs/n1_redlines.md) | 硬化 A3：选股 / 风险 / 止损 / regime 红线 |
+| [docs/n1_redlines.md](./docs/n1_redlines.md) | 硬化 A3：选股 / 风险 / 止损 / 体制红线 |
 
 ## 参数
 
@@ -58,11 +58,11 @@ E2：`70cc50ad965234b99a5a136d4e4f283eedd4281f`
 
 | | N1 | E2 |
 | --- | ---: | ---: |
-| CAGR | 21.82% | 21.10% |
-| MaxDD | 7.71% | 7.67% |
+| 年化（CAGR） | 21.82% | 21.10% |
+| 最大回撤（MaxDD） | 7.71% | 7.67% |
 | 2024 | +27.48% | +23.91% |
 | 2025 | +16.14% | +18.09% |
 
-新策略过门：同一窗 CAGR > 21.82% 且 MaxDD ≤ 7.71%。不过不上盘。
+新策略过门：同一窗年化 > 21.82% 且最大回撤 ≤ 7.71%。不过不上盘。
 
 本仓库没有运行时、`state.db`、token、持仓、行情。
