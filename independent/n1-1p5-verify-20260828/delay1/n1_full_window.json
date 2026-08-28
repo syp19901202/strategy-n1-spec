@@ -1,0 +1,83 @@
+{
+  "status": "complete",
+  "start": "2024-01-03",
+  "end": "2026-07-31",
+  "nav_csv": "n1_nav.csv",
+  "trades_csv": "n1_trades.csv",
+  "knobs_out": "n1_knobs.json",
+  "metrics": {
+    "cagr": 0.17322885908410401,
+    "total_return": 0.5061287412920874,
+    "max_drawdown": 0.11997678750345886,
+    "end_nav": 150612.87412920824,
+    "trade_count": 287,
+    "complete": true,
+    "incomplete_reasons": [],
+    "risk_settings_error": 0,
+    "signals": 965,
+    "execs": 964,
+    "daily_row_count": 646,
+    "yearly": {
+      "2024": 0.19981517838049556,
+      "2025": 0.0955592289349041,
+      "2026": 0.145808086106191
+    }
+  },
+  "peak_trough": {
+    "peak": "2026-06-22",
+    "peak_nav": 171146.4788547271,
+    "trough": "2026-07-30",
+    "trough_nav": 150612.87412920824,
+    "end": "2026-07-31",
+    "end_nav": 150612.87412920824,
+    "max_drawdown": 0.11997678750345886
+  },
+  "open_book_2025_12_31": {
+    "asof": "2025-12-31",
+    "cash": 58403.74816909307,
+    "nav": 131446.85916909308,
+    "positions": {
+      "GS.US": 29,
+      "LLY.US": 15,
+      "LRCX.US": 95,
+      "SNDK.US": 24,
+      "WDC.US": 57
+    }
+  },
+  "subwindow_2024_2025_from_curve": {
+    "start": "2024-01-03",
+    "end": "2025-12-31",
+    "end_nav": 131446.85916909308,
+    "yearly": {
+      "2024": 0.19981517838049556,
+      "2025": 0.0955592289349041
+    }
+  },
+  "knobs_applied": {
+    "size_mult_high": 1.725,
+    "size_mult_mid": 1.5,
+    "size_mult_low": 1.275,
+    "single_name_cap": 0.225,
+    "sector_cap": 0.45,
+    "issuer_cap": 0.225,
+    "strong_bull_trade_risk": 0.0085,
+    "slippage_bps": 10,
+    "fee_bps": 1,
+    "signal_delay": true
+  },
+  "overlay_note_count": 168,
+  "runtime_seconds": null,
+  "data_limited": false,
+  "vs_1x": {
+    "window": ["2024-01-03", "2026-07-31"],
+    "prior_1x": {
+      "cagr_pct": 22.96,
+      "max_drawdown_pct": 10.06,
+      "cagr": 0.2296,
+      "max_drawdown": 0.1006,
+      "trade_count": 313,
+      "end_nav": 169880.38,
+      "complete": false
+    }
+  }
+}
