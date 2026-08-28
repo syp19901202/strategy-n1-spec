@@ -1,0 +1,80 @@
+{
+  "status": "complete",
+  "start": "2024-01-03",
+  "end": "2026-07-31",
+  "nav_csv": "n1_nav.csv",
+  "trades_csv": "n1_trades.csv",
+  "knobs_out": "n1_knobs.json",
+  "metrics": {
+    "cagr": 0.34579010975401303,
+    "max_drawdown": 0.12459177158549584,
+    "end_nav": 214107.74023770838,
+    "trade_count": 333,
+    "complete": true,
+    "risk_settings_error": 0,
+    "signals": 1167,
+    "execs": 1165,
+    "daily_row_count": 646,
+    "yearly": {
+      "2024": 0.3297413024100875,
+      "2025": 0.26114106262495684,
+      "2026": 0.27673728949799425
+    }
+  },
+  "peak_trough": {
+    "peak": "2026-06-22",
+    "trough": "2026-07-17",
+    "end": "2026-07-31",
+    "end_nav": 214107.74023770838,
+    "max_drawdown": 0.12459177158549584
+  },
+  "open_book_2025_12_31": {
+    "asof": "2025-12-31",
+    "cash": 26493.032913775205,
+    "nav": 167699.13591377522,
+    "positions": {
+      "BAC.US": 683,
+      "GOOG.US": 76,
+      "LLY.US": 23,
+      "SNDK.US": 30,
+      "WDC.US": 74,
+      "WMT.US": 322
+    }
+  },
+  "subwindow_2024_2025_from_curve": {
+    "start": "2024-01-03",
+    "end": "2025-12-31",
+    "end_nav": 167699.13591377522,
+    "yearly": {
+      "2024": 0.3297413024100875,
+      "2025": 0.26114106262495684
+    }
+  },
+  "knobs_applied": {
+    "size_mult_high": 1.725,
+    "size_mult_mid": 1.5,
+    "size_mult_low": 1.275,
+    "single_name_cap": 0.225,
+    "sector_cap": 0.45,
+    "issuer_cap": 0.225,
+    "strong_bull_trade_risk": 0.0085,
+    "slippage_bps": 10,
+    "fee_bps": 1,
+    "signal_delay": false
+  },
+  "overlay_note_count": 129,
+  "runtime_seconds": null,
+  "data_limited": false,
+  "vs_1x": {
+    "window": ["2024-01-03", "2026-07-31"],
+    "prior_1x": {
+      "cagr_pct": 22.96,
+      "max_drawdown_pct": 10.06,
+      "cagr": 0.2296,
+      "max_drawdown": 0.1006,
+      "trade_count": 313,
+      "end_nav": 169880.38,
+      "complete": false
+    }
+  }
+}
